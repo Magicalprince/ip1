@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #002efb;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.nav ul li a {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.nav ul li a:hover {
+    background-color: #D9534F; /* Hover effect */
+}
+
+
+
+.portfolio-section {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Left frame styling */
+.left-frame {
+    width: 50%;
+    background-color: #f0f0f0;
+}
+
+.left-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right frame styling */
+.right-frame {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.right-frame h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.right-frame h1 span {
+    color: #6C3CFF; /* The purple color for the name */
+}
+
+.right-frame h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4F4F4F; /* Gray for the job title */
+    margin-bottom: 20px;
+}
+
+.right-frame p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-btn {
+    background-color: #6C3CFF;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: white;
+    color: #6C3CFF;
+    border: 2px solid #6C3CFF;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    display: flex;  /* Aligns items horizontally */
+    align-items: center;
+}
+
+.social-media h3 {
+    margin-right: 20px;  /* Add space between text and icons */
+}
+
+.social-media a {
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.social-media a:hover{
+    color: yellowgreen;
+}
+
+.copyright {
+    text-align: right;
+    margin-left: auto; /* Push the copyright section to the right */
+}
+
+
+
